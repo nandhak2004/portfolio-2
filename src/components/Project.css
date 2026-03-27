@@ -1,0 +1,88 @@
+#projectpage{
+    padding-top: 80px;
+    color:white;
+    min-height: calc(100vh);
+    background:  linear-gradient(120deg, #020617, #020617);
+  }
+  .propara{
+    text-align: center;
+  }
+
+
+  .proboxgrid{
+    padding-top: 50px;
+     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    padding-bottom: 20px;
+
+  }
+  @media(max-width:768px){
+    .proboxgrid{
+    padding-top: 50px;
+    grid-template-columns: 1fr ;
+   
+
+  }
+  }
+  .probox{
+    background:  linear-gradient(120deg, #030920, #030920);
+    padding: 10px;
+    border-radius: 8px;
+    /* width: 25%; */
+    /* display: inline-block; */
+
+    /* display: flex; */
+  
+  }
+  .probox img{
+    width: 80%;
+    padding-left: 40px;
+    padding-top: 20px;
+  }
+  .probox h2{
+    text-align: center;
+    padding-top:10px ;
+  }
+  .probox p{
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+  }
+  .btn1{
+    padding: 10px 16px;
+    /* padding: 10px; */
+    text-decoration: none;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    line-height: 80px;
+
+  }
+   .btn2{
+     padding: 10px 16px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    line-height: 133px;
+   
+  }
+  .btn3{
+     padding: 10px 16px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    border-radius: 8px;
+    line-height: 190px;
+  }
+ 
+  
+  .probox a:hover{
+    box-shadow: 0px 0px 15px blue;
+    color: white;
+    background-color: blue;
+    transform: translateY(-3px);
+  }

@@ -1,0 +1,103 @@
+#skillpage{
+    /* height:550px;  */
+    min-height: calc(100vh);
+  /* padding-top: 80px; */
+  padding-top: 80px;
+    /* padding: 100px; */
+    color:white;
+    min-height: calc(100vh);
+    background:  linear-gradient(120deg, #020617, #020617);
+    z-index: 1000px;
+  }
+  
+  
+  #skillpage h1,p{
+    text-align: center;
+  
+  }
+  #skillpage p{
+    padding-top: 10px;
+  }
+  .skill{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    /* grid-template-rows: 250px 250px; */
+    margin-top: 10px;
+    /* height: 200px; */
+  
+  }
+  @media(max-width:768px){
+      .skill{
+    grid-template-columns: 1fr;
+  }
+  }
+  .skill-info img{
+    width: 100px;
+height: 100px;
+    /* padding: 20px; */
+    /* text-align: center; */
+  }
+  .skill-info h2{
+    text-align: center;
+  }
+  .skill-info {
+    text-align: center;
+    padding-bottom: 45px;
+  
+  
+  }
+  @media(max-width:768px){
+    .skill-info{
+background:  linear-gradient(120deg, #040b25, #040b25);
+margin: 10px;
+border-radius: 10px;
+padding: 15px 22px;
+    }
+  
+  }
+  /* .skill-info{
+  background:  linear-gradient(120deg, #040b25, #040b25);
+  padding: 10px;
+
+  } */
+.react{
+   animation-name: react ;
+  animation-duration: 18s;
+  animation-timing-function:linear;
+  animation-iteration-count: infinite;
+}
+
+   @keyframes react{
+    from{
+      transform: rotate(0deg);
+    }
+    to{
+      transform: rotate(360deg);
+    }
+   }
+   .cube {
+width: 100px;
+height: 100px;
+position: relative;
+
+transform-style: preserve-3d;
+animation: rotateCube 30s infinite linear;
+margin: 100px auto;
+}
+.cube div {
+position: absolute;
+width: 100px;
+height: 100px;
+background: rgba(255, 255, 255, 0.8);
+border: 1px solid #ccc;
+}
+.front { transform: translateZ(50px); }
+.back { transform: rotateY(180deg) translateZ(50px); }
+.right { transform: rotateY(90deg) translateZ(50px); }
+.left { transform: rotateY(-90deg) translateZ(50px); }
+.top { transform: rotateX(90deg) translateZ(50px); }
+.bottom { transform: rotateX(-90deg) translateZ(50px); }
+@keyframes rotateCube {
+from { transform: rotateX(0deg) rotateY(0deg); }
+to { transform: rotateX(360deg) rotateY(360deg); }
+}

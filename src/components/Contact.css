@@ -1,0 +1,132 @@
+ 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contact{
+  padding-top: 90px;
+  
+  color:white;
+    min-height: calc(100vh);
+    /* width: 100%;  */
+    background:  linear-gradient( #020617, #020617);
+
+}
+
+@media(min-width:769px){
+.contact h1{
+  text-align: center;
+  font-size: 42px;
+}
+}
+.contact h1{
+  text-align: center;
+}
+
+.contactpage{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding: 20px;
+  /* margin-top: 10px; */
+  /* margin: 20px; */
+  
+}
+@media(max-width:768px){
+  .contactpage{
+    grid-template-columns: 1fr;
+
+    /* margin: 20px; */
+     gap: 30px;
+  /* margin-top: 10px; */
+  }
+ 
+}
+.call{
+  padding: 30px;
+/* background-color: #c1c5d6; */
+  background:  linear-gradient(120deg, #040b25, #040b25);
+  border-radius: 15px;
+}
+@media(max-width:768px){
+  .call{
+    padding:20px;
+    
+  }
+}
+.call p{
+  padding: 10px;
+} 
+.info{
+  margin-top: 10px;
+
+}
+.details{
+  padding: 6px;
+}
+.details:hover{
+  color:rgb(134, 161, 248);
+}
+.details a{
+  text-decoration: none;
+  color: white;
+}
+ [type="text"]{
+  width:100%;
+  padding: 12px 18px;
+  border-radius: 5px;
+  background:#aaaaad;
+  margin-top: 6px;
+
+}
+[type="email"]{
+   width:100%;
+  padding: 12px 18px;
+  border-radius: 5px;
+  background:#aaaaad;
+  margin-top: 6px;
+  border: 1px solid #aaaaad;
+
+}
+
+form{
+  padding-top: 20px;
+  
+}
+input::placeholder{
+  color: #040b25;
+  font-weight: 900;
+}
+textarea::placeholder{
+ 
+   padding: 22px 18px;
+   font-weight: 900;
+   color: #040b25;
+}
+textarea{
+   width: 100%;
+   border-radius: 5px;
+  background:#aaaaad;
+  margin-top: 6px;
+  border: 1px solid #aaaaad;
+
+}
+[type="submit"]{
+  /* width: 180px; */
+  padding: 9px 30px;
+  border-radius: 5px;
+  border: 1px solid #aaaaad;
+  font-weight: 600;
+   background:#aaaaad;
+margin-top: 6px;
+transition: 0.8s;
+/* background-color: rgb(247, 176, 46); */
+}
+[type="submit"]:hover{
+  background-color: blue;
+  color: white;
+  box-shadow: 0px 0px 15px blue;
+  transform:translateY(-3px) ;
+  /* margin-bottom: 5px; */
+}
