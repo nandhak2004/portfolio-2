@@ -1,4 +1,9 @@
 import './Project.css'
+import portfolio from "../assets/Screenshot5.png"
+import perfumy from "../assets/Screenshot5.png"
+import events from "../assets/Screenshot5.png"
+
+
 
 import React from 'react'
 
@@ -13,7 +18,7 @@ function Project() {
       </div>
       <div className="proboxgrid">
         <div className="probox">
-          <img src="src/assets/Screenshot5.png " alt="project" />
+          <img src={portfolio} alt="project" />
           <h2>Personal Porfolio</h2>
 
           <p>A responsive personal portfolio website built using HTML, CSS and JavaScript,React.
@@ -21,7 +26,7 @@ function Project() {
         <a href="https://nandhak2004.github.io/Personal-portfolio/" target='blank' rel='noopener noreferrer' className='btn1'> view project</a>
         </div>
         <div className="probox">
-          <img src="src/assets/Screenshot3.png" alt="project" />
+          <img src={perfumy} alt="project" />
           <h2>Perfume</h2>
           <p>A responsive Perfume website built using HTML and CSS.
             It includes sections like Home, Products, About Us and Contact Us.</p>
@@ -29,7 +34,7 @@ function Project() {
 
         </div>
         <div className="probox">
-          <img src="src/assets/Screenshot2.png" alt="project" />
+          <img src={events} alt="project" />
           <h2>Upcoming Events</h2>
 
           <p>A responsive Upcoming Events website built using HTML and CSS. </p>

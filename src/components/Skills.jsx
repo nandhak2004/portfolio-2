@@ -10,12 +10,12 @@ function Skills() {
 <div className="skill">
   <div className="skill-info">
     <div class="cube">
-<div class="front"><img src="HTML5.svg" alt="html" /></div>
-<div class="back"><img src="HTML5.svg" alt="html" /></div>
-<div class="right"><img src="HTML5.svg" alt="html" /></div>
-<div class="left"><img src="HTML5.svg" alt="html" /></div>
-<div class="top"><img src="HTML5.svg" alt="html" /></div>
-<div class="bottom"><img src="HTML5.svg" alt="html" /></div>
+<div class="front"><img src="/portfolio-2/HTML5.svg" alt="html" /></div>
+<div class="back"><img src="/portfolio-2/HTML5.svg" alt="html" /></div>
+<div class="right"><img src="/portfolio-2/HTML5.svg" alt="html" /></div>
+<div class="left"><img src="/portfolio-2/HTML5.svg" alt="html" /></div>
+<div class="top"><img src="/portfolio-2/HTML5.svg" alt="html" /></div>
+<div class="bottom"><img src="/portfolio-2/HTML5.svg" alt="html" /></div>
 </div>
     <h2 className='html'>HTML</h2>
     {/* <input type="range" /> */}
@@ -23,12 +23,12 @@ function Skills() {
   <div className="skill-info">
     <div class="cube">
    
-<div class="front"> <img src="CSS3.svg" alt="css" /></div>
-<div class="back"><img src="CSS3.svg" alt="css" /></div>
-<div class="right"><img src="CSS3.svg" alt="css" /></div>
-<div class="left"><img src="CSS3.svg" alt="css" /></div>
-<div class="top"><img src="CSS3.svg" alt="css" /></div>
-<div class="bottom"><img src="CSS3.svg" alt="css" /></div>
+<div class="front"> <img src="/portfolio-2/CSS3.svg" alt="css" /></div>
+<div class="back"><img src="/portfolio-2/CSS3.svg" alt="css" /></div>
+<div class="right"><img src="/portfolio-2/CSS3.svg" alt="css" /></div>
+<div class="left"><img src="/portfolio-2/CSS3.svg" alt="css" /></div>
+<div class="top"><img src="/portfolio-2/CSS3.svg" alt="css" /></div>
+<div class="bottom"><img src="/portfolio-2/CSS3.svg" alt="css" /></div>
 </div>
     <h2 className='same'>CSS</h2>
     {/* <input type="range" /> */}
@@ -37,12 +37,12 @@ function Skills() {
   </div>
   <div className="skill-info">
     <div class="cube">
-   <div class="front"> <img src="JavaScript.svg" alt="Javascript" /></div>  
-<div class="back"><img src="JavaScript.svg" alt="Javascript" /></div>
-<div class="right"><img src="JavaScript.svg" alt="Javascript" /></div>
-<div class="left"><img src="JavaScript.svg" alt="Javascript" /></div>
-<div class="top"><img src="JavaScript.svg" alt="Javascript" /></div>
-<div class="bottom"><img src="JavaScript.svg" alt="Javascript" /></div>
+   <div class="front"> <img src="/portfolio-2/JavaScript.svg" alt="Javascript" /></div>  
+<div class="back"><img src="/portfolio-2/JavaScript.svg" alt="Javascript" /></div>
+<div class="right"><img src="/portfolio-2/JavaScript.svg" alt="Javascript" /></div>
+<div class="left"><img src="/portfolio-2/JavaScript.svg" alt="Javascript" /></div>
+<div class="top"><img src="/portfolio-2/JavaScript.svg" alt="Javascript" /></div>
+<div class="bottom"><img src="/portfolio-2/JavaScript.svg" alt="Javascript" /></div>
 </div>
     <h2 className='js'>JavaScript</h2>
 
@@ -51,7 +51,7 @@ function Skills() {
 
   </div>
   <div className="skill-info">
-    <img src="React.svg" alt="React" className='react'/>
+    <img src="/portfolio-2/React.svg" alt="React" className='react'/>
     <h2 className='same'>React</h2>
     {/* <input type="range" /> */}
   </div>

@@ -1,15 +1,12 @@
 import React from 'react'
+import myimage from "../assets/pro3.jpg"
 
 function About() {
   return (
     <div>
       <section className="about-container">
         <div className="about-left">
-          <img
-            src="src/assets/pro3.jpg"
-            alt="profile"
-            className="profile-img"
-          />
+          <img src={myimage} alt="profile" className="profile-img"/>
         </div>
 
         <div className="about-right">
