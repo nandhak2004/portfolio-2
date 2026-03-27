@@ -1,7 +1,7 @@
 import './Project.css'
 import portfolio from "../assets/Screenshot5.png"
-import perfumy from "../assets/Screenshot5.png"
-import events from "../assets/Screenshot5.png"
+import perfumy from "../assets/Screenshot3.png"
+import events from "../assets/Screenshot2.png"
 
 
 
