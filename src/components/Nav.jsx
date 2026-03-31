@@ -11,7 +11,7 @@ function Nav() {
           <FaBars />
         </div>
         <nav className={open ?"nav":"nav-links"}>
-           <Link to='/' className='link'>Home</Link>
+           <Link to='/home' className='link'>Home</Link>
            <Link to='/about' className='link'>About</Link>
            <Link to='/project'   className='link'>Project</Link>
            <Link to='/skills'  className='link'>Skills</Link>
