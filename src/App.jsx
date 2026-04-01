@@ -13,10 +13,11 @@ function App() {
 
   return (
     <>
-     <BrowserRouter>
+     <BrowserRouter basename='/portfolio-2'>
      <Nav/>
      <Routes>
-      <Route path='/home' element={<Home/>} />
+      <Route path='/' element={<Home/>} />
+      <Route path='/home' element={<Home/>}/>
       <Route path='/about' element={<About/>} />
       <Route path='/project' element={<Project/>}  />
       <Route path='/skills' element={<Skills/>} />
